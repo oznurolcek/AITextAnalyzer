@@ -1,12 +1,8 @@
 # AI Text Analyzer
 
-AI Text Analyzer is a backend service built with FastAPI and powered by Google Gemini.
+AI Text Analyzer is a text analysis application powered by Google Gemini.  
 
-Requirements:
-- Docker
-- Docker Compose
-
-Python or a virtual environment is NOT required when running the project with Docker.
+The backend is built with FastAPI and the project is designed to run using Docker so that it can be executed on any machine without local Python or dependency issues.
 
 Steps to run the project:
 
@@ -34,8 +30,10 @@ docker compose up
 ```
 
 After the containers start, 
+
 The backend will be available at: http://localhost:8000
-The forend will be available at: http://localhost:8080
+
+The frontend will be available at: http://localhost:8080
 
 
 Notes:
